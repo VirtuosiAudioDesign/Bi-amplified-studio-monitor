@@ -36,12 +36,11 @@ The following diagram shows the signal flow through the crossover stages:
 ## Folder Structure 
 ```
 studio-monitor/
-├── crossover/           → Active crossover (Linkwitz-Riley 4th order)
-├── power-supply/        → Linear ±15 V regulated power supply (crossover) and ±35 V unregulated power supply (LM3886)
-├── power-amplifier/     → LM3886-based amplifier modules
-├── xlr-rca-input/       → PCB for input selection, filtering and protection
-├── docs/                → Design notes, calculations, and simulations
-└── images/              → Schematics, diagrams, and renderings
+├── active-crossover-two-way/ → Images, calculation, measurements, etc.
+├── power-supply/             → Images, calculation, measurements, etc.
+├── power-amplifier/          → Images, calculation, measurements, etc
+├── xlr-rca-input/            → Images, calculation, measurements, etc
+└── images/                   → Block-diagram, prototype photos, etc.
 ```
 
 Note: For more details, check individual folders (crossover, power supply, etc.)
