@@ -1,4 +1,9 @@
 # High-frequency oscillation fix on U5A (NE5532)
+                                 PCB-Bottom
+![Crossover-PCB](crossover-pcb-back.png)
+
+                                 PCB-Top
+![Crossover-PCB](crossover-pcb-front.png)                                 
 
 As soon as the prototype PCB arrived, the first measurements were taken and an oscillation around 3 MHz was observed at the crossover output. To determine the origin of the problem, a 1Vp_1kHz signal was applied to the crossover input, and the signal was tracked until the point where it was being degraded. The problem was located in the shelving filter responsible for the tweeter adjustment, more specifically in the inverting amplifier. See the picture below:
 
